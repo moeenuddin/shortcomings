@@ -1,0 +1,13 @@
+Part 1. run server-1.js for test run client/test1.js
+Part 2. run async-way2.js for test run client/test1.js
+Part 3. run server-3.js for test run client/test1.js
+Bonus: run bacon2.js and for test client/test1-stream.js
+
+-- I knew that async calls is not easy to debug.
+-- I wrote a simple method first to get the title, turns out the server response could be different such
+-- as redirects (for various reasons) -- may be mutlpies, or blocks of ip (did not go into details)
+-- protocol validation is important, deciding http/https,
+-- recursive call the getTitle
+-- I have get title in a loop and put the result in list
+-- once the list is done.
+-- 
